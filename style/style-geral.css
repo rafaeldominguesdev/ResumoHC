@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Collage';
+    src: url(../font/CollegiateFLF.ttf) format('opentype'),
+        url(../font/CollegiateBorderFLF.ttf) format('opentype'),
+        url(../font/CollegiateBoldFLF.ttf) format('opentype'),
+        url(../font/CollegiateInsideFLF.ttf) format('opentype'),
+        url(../font/CollegiateOutlineFLF.ttf) format('opentype');
+}
+
+
+.texto-um {
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+.texto-dois {
+  font-family: 'Montserrat';
+  font-size: 20px;
+}
+
+.texto-tres {
+  font-family: 'Collage';
+  font-size: 80px;
+}
