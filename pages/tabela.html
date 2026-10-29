@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Documentação do Resumão">
+    <meta name="author" content="Rafael Domingues">
+    <meta name="keywords" content="html, css, tecnologic">
+    <title>Resumo das aulas HTML</title>
+    <style>
+        body {
+            font-family: sans-serif;
+
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+            background-color: beige;
+        }
+
+        th {
+            background-color: #bfc361;
+            border: 2px solid chocolate;
+            padding: 15px;
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./pages/fontes.html">Trabalhando com fontes</a></li>
+                <li><a href="./pages/display.html">Trabalhando com Display</a></li>
+                <li><a href="./pages/box-sizing.html">Trabalhando com Boxsizen</a></li>
+                <li><a href="./pages/Position.html">Position</a></li>
+                <li><a href="./pages/listas.html">Listas</a></li>
+                <li><a href="./pages/Overflow.html">OverFlow</a></li>
+                <li><a href="./pages/tabela.html">tabela</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <table>
+            <caption>Tabela de preços de cursor </caption>
+            <thead>
+                <tr>
+                    <th>Área </th>
+                    <th>Curso</th>
+                    <th>Investimento</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td rowspan="3">Design</td>
+                    <td>InDesign</td>
+                    <td>1,000.00</td>
+                </tr>
+                <tr>
+                    <!-- <td>Design</td> -->
+                    <td>PhotoShoop</td>
+                    <td>1.000,00</td>
+                </tr>
+                <tr>
+                    <!-- <td>Design</td> -->
+                    <td>Illustrator</td>
+                    <td>1.000,00</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Desenvolvimento</td>
+                    <td>HTML</td>
+                    <td>1.000,00</td>
+                </tr>
+                <tr>
+                    <!-- <td>Desenvolvimento</td> -->
+                    <td>CSS</td>
+                    <td>1.000,00</td>
+                </tr>
+                <tr>
+                    <!-- <td>Desenvolvimento</td> -->
+                    <td>JS</td>
+                    <td>1.000,00</td>
+                </tr>
+                <tr>
+                    <!-- <td>Desenvolvimento</td> -->
+                    <td>PHP</td>
+                    <td>1.000,00</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Valores sujeitos a alterações sem avisos prévio</td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
